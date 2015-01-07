@@ -22,17 +22,75 @@ body {
 .regcontainer {
   padding-right: 15px;
   padding-left: 15px;
-  width: 90%;
   margin-right: auto;
   margin-left: auto;
-  background-color: white;
-  color: black;
-  opacity: .9;
+  color: white;
   border-radius: 3px;
   text-align: center;
+  display: block;
+  padding-top: 70px;
+  padding-bottom: 70px;
 }
 
 .content {
   padding-top:65px;
   width:220px;
+}
+
+
+.gradient-overlay {
+background-image: -webkit-gradient(linear, left top, right top, from(rgba(21,204,170,0.6)), to(rgba(18,181,234,0.6)));
+}
+
+h1 {
+font: 35pt Rokkitt;
+text-transform: none;
+letter-spacing: 0;
+}
+
+p {
+  font: Rokkitt;
+text-transform: none;
+letter-spacing: 0;}
+
+.main-content {
+width: auto;
+margin: 0 auto;
+overflow: auto;
+padding: 70px 0;
+text-align: center;
+letter-spacing: 1px;
+}
+
+.pic-container img {
+  width: 25%;
+  float: left;
+  height: 250px;
+}
+
+
+.pic-container2 img {
+  width: 25%;
+  float: left;
+  height: 250px;
+}
+
+
+
+.pic-container3 img {
+  width: 25%;
+  float: left;
+  height: 250px;
+}
+
+
+.pic-container4 img {
+  width: 25%;
+  height: 250px;
+}
+
+.picture-inline {
+  display: inline;
+  width: 100%;
+
 }
