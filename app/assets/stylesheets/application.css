@@ -20,16 +20,12 @@ body {
 }
 
 .regcontainer {
-  padding-right: 15px;
-  padding-left: 15px;
-  margin-right: auto;
-  margin-left: auto;
   color: white;
-  border-radius: 3px;
   text-align: center;
   display: block;
-  padding-top: 70px;
+  padding-top: 60px;
   padding-bottom: 70px;
+  margin-top: -35px
 }
 
 .content {
@@ -63,14 +59,14 @@ letter-spacing: 1px;
 }
 
 .pic-container img {
-  width: 25%;
+  width: 300px;
   float: left;
   height: 250px;
 }
 
 
 .pic-container2 img {
-  width: 25%;
+  width: 300px;
   float: left;
   height: 250px;
 }
@@ -78,19 +74,42 @@ letter-spacing: 1px;
 
 
 .pic-container3 img {
-  width: 25%;
+  width: 300px;
   float: left;
   height: 250px;
 }
 
 
 .pic-container4 img {
-  width: 25%;
+  width: 300px;
   height: 250px;
 }
 
-.picture-inline {
-  display: inline;
-  width: 100%;
 
+.bluebox {
+  background-color: #12b5ea;
+  height: 225px;
+  width: 100%;
+  margin-top: -35px;
+}
+
+
+.bluebox2 {
+  background-color: #12b5ea;
+  width: 100%;
+  margin-top: -35px;
+}
+
+
+.regcontainer2 {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
+  border-radius: 3px;
+  text-align: center;
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 30px;
 }
